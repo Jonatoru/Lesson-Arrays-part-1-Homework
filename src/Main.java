@@ -31,5 +31,9 @@ public class Main {
         System.out.println("Задача 2");
 
         System.out.println("Вывожу значения всех массивов:\n" + number1 +","+ number2 +","+ number3+"\n"+ fractions[0] +","+ fractions[1] +","+ fractions[2]+"\n"+ symbols[0] +","+ symbols[1] +","+ symbols[2] +".");
+
+        System.out.println("Задача 3");
+
+        System.out.println("Вывожу значения всех массивов в обратном порядке:\n" + number3 +","+ number2 +","+ number1+"\n"+ fractions[2] +","+ fractions[1] +","+ fractions[0]+"\n"+ symbols[2] +","+ symbols[1] +","+ symbols[0] +".");
     }
 }
