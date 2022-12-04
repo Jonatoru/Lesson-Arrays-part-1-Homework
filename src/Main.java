@@ -35,5 +35,16 @@ public class Main {
         System.out.println("Задача 3");
 
         System.out.println("Вывожу значения всех массивов в обратном порядке:\n" + number3 +","+ number2 +","+ number1+"\n"+ fractions[2] +","+ fractions[1] +","+ fractions[0]+"\n"+ symbols[2] +","+ symbols[1] +","+ symbols[0] +".");
+
+        System.out.println("Задача 4");
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 == 0){
+                System.out.println(numbers[i]);
+           }else{
+                numbers[i]+=1;
+                System.out.println(numbers[i]);
+            }
+        }
     }
 }
